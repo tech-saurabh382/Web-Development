@@ -1,6 +1,6 @@
 *,
 *::before,
-*::after{  
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,18 +14,18 @@
     --lt-violet2: hsl(281, 89%, 26%);
     --vb-violet: hsl(285, 91%, 52%);
     --vb-violet2: hsl(290, 70%, 36%);
-  
+
     --vb-yellow: hsl(52, 100%, 62%);
-  
-  
+
+
     --pl-white: hsl(0, 0%, 100%);
-  
+
     --vb-cyan: hsl(176, 100%, 44%);
     --vb-cyan2: hsl(177, 92%, 70%);
     --dk-text: hsl(198, 20%, 13%);
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -35,12 +35,12 @@ body{
     background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
 }
 
-.conatiner{
+.conatiner {
     width: 90%;
     max-width: 450px;
 }
 
-h1{
+h1 {
     color: var(--pl-white);
     opacity: 0.75;
     text-transform: uppercase;
@@ -49,7 +49,7 @@ h1{
     line-height: 1.2;
 }
 
-.display-container{
+.display-container {
     position: relative;
     background-color: var(--dk-violet);
     border-radius: 1rem;
@@ -68,10 +68,10 @@ h1{
     line-height: 30px;
     letter-spacing: 1px;
     padding-right: 3.25rem;
-    border:none;
+    border: none;
 }
-  
-.display::placeholder{
+
+.display::placeholder {
     position: absolute;
     top: 50%;
     left: 1.5rem;
@@ -83,14 +83,14 @@ h1{
     transform: translateY(-50%);
 }
 
-.display-container button{
+.display-container button {
     position: absolute;
     top: 50%;
     right: 1.5rem;
     transform: translateY(-50%);
 }
 
-.input-container{
+.input-container {
     width: 100%;
     background-color: var(--dk-violet);
     border-radius: 1rem;
@@ -98,23 +98,23 @@ h1{
     border-bottom: 0.35rem solid var(--lt-violet2);
 }
 
-.length-container{
+.length-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.length-container p:nth-child(1){
+.length-container p:nth-child(1) {
     color: var(--pl-white);
     font-size: 1.5rem;
 }
 
-.length-container p:nth-child(2){
+.length-container p:nth-child(2) {
     color: var(--vb-yellow);
     font-size: 1.5rem;
 }
 
-.strength-container{
+.strength-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,7 +154,7 @@ h1{
     gap: 0 1rem;
 }
 
-.check input{
+.check input {
     appearance: none;
     width: 20px;
     height: 20px;
@@ -164,22 +164,22 @@ h1{
     border-radius: 0.35rem;
 }
 
-.check input:checked{
+.check input:checked {
     background-color: var(--vb-cyan);
 }
 
-.check input:checked::before{
+.check input:checked::before {
     content: '✔';
     position: absolute;
     color: var(--dk-text);
-    font-size:1.05rem;
+    font-size: 1.05rem;
     font-weight: 600;
-    left:50%;
-    top:-3.5px;
-    transform: translateX(-50%)  translateY(5%);
+    left: 50%;
+    top: -3.5px;
+    transform: translateX(-50%) translateY(5%);
 }
 
-.check label{
+.check label {
     color: var(--pl-white);
     font-size: 1.25rem;
     letter-spacing: 0.75px;
@@ -204,14 +204,14 @@ h1{
     transform: scale(0);
     transform-origin: bottom;
     transition: all 250ms ease-in-out;
-  }
-  
+}
+
 .tooltip.active {
     opacity: 1;
     transform: scale(1);
 }
 
-.slider{
+.slider {
     appearance: none;
     width: 100%;
     height: 0.75rem;
@@ -239,11 +239,11 @@ h1{
     transition: all 100ms ease-in;
 }
 
-.slider:focus{
+.slider:focus {
     outline: 3px solid var(--vb-yellow);
 }
 
-.slider::-webkit-slider-thumb:hover{
+.slider::-webkit-slider-thumb:hover {
     outline: 2px solid var(--vb-yellow);
     background-color: var(--dk-violet);
     box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
