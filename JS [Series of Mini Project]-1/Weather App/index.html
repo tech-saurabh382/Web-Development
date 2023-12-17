@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +11,8 @@
     rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
+    
     <div class="wrapper">
 
         <h1>Weather App</h1>
@@ -38,18 +36,18 @@
             <form class="form-container" data-searchForm>
                 <input placeholder="Search for City..." data-searchInput>
                 <button class="btn" type="submit">
-                    <img src="./assets/search.png" width="20" height="20" loading="lazy">
+                    <img src="./assets/search.png"  width="20" height="20" loading="lazy">
                 </button>
             </form>
 
             <!--- loading screen container -->
-            <div class="loading-container">
+            <div class="sub-container loading-container">
                 <img src="./assets/loading.gif" width="150" height="150">
                 <p>Loading</p>
             </div>
 
             <!-- show weather info -->
-            <div class="user-info-container">
+            <div class="sub-container user-info-container">
 
                 <!--city name and Flag-->
                 <div class="name">
@@ -69,21 +67,21 @@
 
                     <!--card 1-->
                     <div class="parameter">
-                        <img src="./assets/wind.png">
+                        <img src="./assets/wind.png" >
                         <p>windspeed</p>
                         <p data-windspeed></p>
                     </div>
 
                     <!--card 2-->
                     <div class="parameter">
-                        <img src="./assets/humidity.png">
+                        <img src="./assets/humidity.png" >
                         <p>humidity</p>
                         <p data-humidity></p>
                     </div>
 
                     <!--card 3-->
                     <div class="parameter">
-                        <img src="./assets/cloud.png">
+                        <img src="./assets/cloud.png" >
                         <p>Clouds</p>
                         <p data-cloudiness></p>
                     </div>
@@ -103,5 +101,4 @@
 
     <script src="index.js"></script>
 </body>
-
 </html>
