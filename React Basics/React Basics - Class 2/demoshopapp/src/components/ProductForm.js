@@ -34,7 +34,7 @@ function ProductForm(props) {
 
     return (
         <form onSubmit={submitHandler}>
-            <div className='new-product_control'>
+            <div className='new-product_controls'>
                 <div className='new-product_control'>
                     <label>Title</label>
                     <input type="text" value={newTitle} onChange={titleChangeHandler}></input>
