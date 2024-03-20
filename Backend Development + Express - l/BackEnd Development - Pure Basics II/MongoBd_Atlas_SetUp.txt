@@ -1,0 +1,15 @@
+EDMaISV7wxaIKNyk
+
+-> MongoDB atlast Login
+-> top left -> dropdown -> new Project
+-> enter project name and new project
+-> build database click
+-> Select MongoDB plan, which is marked as free and selecr mumbai as region 
+-> click create 
+-> save username?password -> click create
+-> click finish and close
+-> click connect
+-> click compass 
+-> copy connection string and replace <password> with the password you saved before
+
+mongodb+srv://saurabhgawali3008:EDMaISV7wxaIKNyk@cluster0.cwfhdwh.mongodb.net/babbarNewDatabase
